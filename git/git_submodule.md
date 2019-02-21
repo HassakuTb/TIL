@@ -28,7 +28,7 @@ git submodule update
 ```
 
 
-* 別のデバイスで作業する場合
+別のデバイスで作業する場合
 ```bash
 git clone https://outer.git
 git submodule init

@@ -24,3 +24,6 @@
 > mc.LazyDictionary = Enumerable.Range(1, 10).ToDictionary(x => x).AsLazyDictionary();
 > mc.LazyLookup = Enumerable.Range(1, 10).ToLookup(x => x).AsLazyLookup();
 > ```
+
+
+[めっちゃおもろい実装のはなし](http://neue.cc/2016/11/08_542.html)

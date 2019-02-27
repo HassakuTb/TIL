@@ -37,3 +37,11 @@ firebase init functions
   * 今回はJavaScriptを選択
   
 git管理下に置く場合、このタイミングでリポジトリを作っておくと良さそう
+
+### functionの作成とデプロイ
+functions/index.jsを編集してfuncitonを作成する。  
+
+functionの作成が完了したらデプロイを実行する。
+```ps1
+firebase deploy --only functions
+```

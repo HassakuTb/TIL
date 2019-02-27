@@ -3,8 +3,6 @@
 
 1. まずはiOSかAndroidアプリケーションとしてFirebaseに登録する
 
-![add_firebase_to_Unity_app](Resources/Images/add_firebase_to_Unity_app.PNG)
-
 1. 登録したらgoogle-services.jsonを保存しておく
 
 1. [https://firebase.google.com/docs/unity/setup](https://firebase.google.com/docs/unity/setup)からデスクトップ用SDKをダウンロード

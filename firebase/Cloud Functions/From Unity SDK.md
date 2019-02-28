@@ -40,5 +40,5 @@ functions.GetHttpsCallable("getTopEntries").CallAsync(data)
     };
 ```
 
-* <font color="red">リージョンをデフォルトから変えている場合はリージョンを指定しないとダメ、DefaultInstanceでは動かない</font>
+* リージョンをデフォルトから変えている場合はリージョンを指定しないとダメ、DefaultInstanceでは動かない
 * jsのobject型はDictionary<object, object>としてデシリアライズされている

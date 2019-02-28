@@ -7,7 +7,7 @@
 UnityPackage形式なので通常通りimportを実行する。  
 プロジェクトの設定からDLできるgoogle-services.jsonをAssets内の適当なフォルダに入れておく。
 
-Unity側雛形  
+### クライアント側実装雛形
 ```cs
 FirebaseFunctions functions = FirebaseFunctions.GetInstance("asia-northeast1");
 

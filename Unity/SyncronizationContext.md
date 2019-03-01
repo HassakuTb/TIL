@@ -13,7 +13,7 @@ SomeFunctionAsyncAsync().ContinueWith(task =>
     }
     else
     {
-        Debug.Log("completed")
+        Debug.Log("completed");
     }
 }, TaskScheduler.FromCurrentSynchronizationContext());
 ```

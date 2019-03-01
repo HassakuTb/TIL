@@ -5,7 +5,7 @@ SomeFunctionAsyncAsync().ContinueWith(task =>
 {
     if (task.IsFaulted)
     {
-        Debug.Log("completed")
+        Debug.LogException(task.Exception);
     }
     else if(task.IsCancelled)
     {
@@ -13,7 +13,7 @@ SomeFunctionAsyncAsync().ContinueWith(task =>
     }
     else
     {
-        Debug.LogException(task.Exception);
+        Debug.Log("completed")
     }
 }, TaskScheduler.FromCurrentSynchronizationContext());
 ```

@@ -70,6 +70,13 @@ public class MultiByteInputField : InputField
         KeyCode.Keypad7,
         KeyCode.Keypad8,
         KeyCode.Keypad9,
+        KeyCode.Backspace,
+        KeyCode.Delete,
+        KeyCode.UpArrow,
+        KeyCode.DownArrow,
+        KeyCode.LeftArrow,
+        KeyCode.RightArrow,
+    };
     };
         
     //  選択されたUIの更新処理

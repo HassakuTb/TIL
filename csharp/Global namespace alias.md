@@ -12,3 +12,5 @@ namespace Fuga
 }
 ```
 
+なとき、`Hoge.Fuga`名前空間内で`Piyo`を参照るには、
+`global::Fuga.Piyo`とする。
